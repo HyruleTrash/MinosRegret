@@ -7,6 +7,7 @@ TagManager:
   - PlayerCostumeAssets
   - Collectable
   - Map
+  - PauseButton
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - UI
   - Leaf
   - PostProssesing
-  - 
+  - NavMeshBull
   - 
   - 
   - 
