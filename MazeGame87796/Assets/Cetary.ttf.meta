@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1e03e54ae357f4b8391a7f01ebe6bf25
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cetary
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 975b96622385247ce8471584af3990b9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
