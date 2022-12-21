@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7604863451267347706}
   - component: {fileID: 7771749080018007477}
+  - component: {fileID: 86991987061546864}
   m_Layer: 0
   m_Name: Bull
   m_TagString: Untagged
@@ -55,6 +56,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &86991987061546864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7604863451267347685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd1b367ae6494864bbe5dd9fed94fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  agent: {fileID: 7771749080018007477}
 --- !u!1001 &7951052037362202384
 PrefabInstance:
   m_ObjectHideFlags: 0
