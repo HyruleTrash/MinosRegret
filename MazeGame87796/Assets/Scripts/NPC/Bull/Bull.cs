@@ -11,12 +11,12 @@ public class Bull : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        agent.SetDestination(Player.transform.position);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        agent.SetDestination(Player.transform.position);
     }
 }

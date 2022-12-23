@@ -6,7 +6,22 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RubyMat
+    second: {fileID: 2100000, guid: 3f6d915b6f3d6459d8523fd08af6eb44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmoothStoneMat
+    second: {fileID: 2100000, guid: e9fd911de88e04906b11c5c289768c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneMat
+    second: {fileID: 2100000, guid: db6ae1f121db1489997c5cb9e048d61b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
