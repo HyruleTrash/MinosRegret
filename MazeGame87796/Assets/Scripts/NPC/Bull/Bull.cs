@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class Bull : MonoBehaviour
 {
     public GameObject Player;
+    public GameObject LookAtTarget;
     public NavMeshAgent agent;
 
     // Start is called before the first frame update
@@ -17,6 +18,8 @@ public class Bull : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //agent.SetDestination(Player.transform.position);
+        Vector3 PlayerPos = Player.transform.position;
+        LookAtTarget.transform.position = new Vector3(PlayerPos.x, this.transform.position.y + 7.45f, PlayerPos.z);
+        //agent.SetDestination(PlayerPos);
     }
 }
