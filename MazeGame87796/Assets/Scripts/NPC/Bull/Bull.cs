@@ -17,6 +17,6 @@ public class Bull : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(Player.transform.position);
+        //agent.SetDestination(Player.transform.position);
     }
 }
