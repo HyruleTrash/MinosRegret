@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6790874601571440075}
-  - component: {fileID: 6171213418948191347}
+  - component: {fileID: 2985134859351236529}
   m_Layer: 0
   m_Name: LeftLegIK_target
   m_TagString: Untagged
@@ -257,7 +257,7 @@ Transform:
   m_Father: {fileID: 6354548717235750980}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6171213418948191347
+--- !u!114 &2985134859351236529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,8 +270,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Moving: 1
-  body: {fileID: 7052841711554817390}
-  FootSpacing: -0.7
+  terrainLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  body: {fileID: 4976320992708990910}
+  otherFoot: {fileID: 4259978119902128843}
+  speed: 1
+  StepDistance: 4
+  StepLenght: 4
+  StepHeight: 1
+  FootOffset: {x: 0, y: 0.38, z: 0}
 --- !u!1 &4522220549464624994
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7450453252702854150}
-  - component: {fileID: 8782398578585783850}
+  - component: {fileID: 4259978119902128843}
   m_Layer: 0
   m_Name: RightLegIK_target
   m_TagString: Untagged
@@ -304,7 +312,7 @@ Transform:
   m_Father: {fileID: 4348544184231727320}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8782398578585783850
+--- !u!114 &4259978119902128843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,8 +325,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Moving: 1
-  body: {fileID: 7052841711554817390}
-  FootSpacing: 0.7
+  terrainLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  body: {fileID: 4976320992708990910}
+  otherFoot: {fileID: 2985134859351236529}
+  speed: 1
+  StepDistance: 4
+  StepLenght: 4
+  StepHeight: 1
+  FootOffset: {x: 0, y: 0.38, z: 0}
 --- !u!1 &6584476751995887438
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +638,18 @@ PrefabInstance:
     - target: {fileID: -4639663847853161768, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -85.217
+      objectReference: {fileID: 0}
+    - target: {fileID: -2639638324218457063, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: -2639638324218457063, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: -2639638324218457063, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 395240875988466650, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -944,8 +972,13 @@ MonoBehaviour:
   Player: {fileID: 0}
   LookAtTarget: {fileID: 8124152523311687715}
   FootTargets: []
-  agent: {fileID: 0}
+  BullMesh: {fileID: 0}
+  AI: {fileID: 0}
   Following: 1
+  StepDistance: 1.5
+  StepLenght: 4
+  StepHeight: 0.4
+  speed: 2
 --- !u!114 &2630747539347209367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,11 +1228,6 @@ Transform:
 --- !u!4 &7006409084886101151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2373715532808516524, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
-  m_PrefabInstance: {fileID: 4482521698661015755}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7052841711554817390 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6905609870639353253, guid: 9d55a53aacebb4f0592a358ce782f5c3, type: 3}
   m_PrefabInstance: {fileID: 4482521698661015755}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &7156324231859096762 stripped

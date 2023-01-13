@@ -18,9 +18,10 @@ public class Bull : MonoBehaviour
     bool OldFollowingState = true;
 
 
-    public float StepDistance = 1.5f;
-    public float StepHeight = 0.4f;
-    public float speed = 2f;
+    public float StepDistance = 4f;
+    public float StepLenght = 4f;
+    public float StepHeight = 1f;
+    public float speed = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class Bull : MonoBehaviour
         for (int i = 0; i < FootTargets.Length; i++)
         {
             FootTargets[i].GetComponent<IKFootSolver>().StepDistance = StepDistance;
+            FootTargets[i].GetComponent<IKFootSolver>().StepLenght = StepLenght;
             FootTargets[i].GetComponent<IKFootSolver>().StepHeight = StepHeight;
             FootTargets[i].GetComponent<IKFootSolver>().speed = speed;
         }
@@ -52,7 +54,7 @@ public class Bull : MonoBehaviour
             {
                 for (int i = 0; i < FootTargets.Length; i++)
                 {
-                    FootTargets[i].GetComponent<IKFootSolver>().speed = speed;
+                    FootTargets[i].GetComponent<IKFootSolver>().speed = agent.speed;
                 }
             }
         }
