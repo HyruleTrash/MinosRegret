@@ -63,13 +63,13 @@ public class IKFootSolver : MonoBehaviour
             }
         }
     }
-    /*
+    
     void OnDrawGizmos()
     {
+        Ray ray = new Ray(body.position + (body.right * FootSpacing), -body.up);
         Gizmos.color = Color.yellow;
-        Vector3 pos = body.transform.position + (body.transform.right * FootSpacing);
-        Gizmos.DrawLine(pos, pos + (Vector3.down * 10));
-    }*/
+        Gizmos.DrawLine(ray.origin, ray.origin + (ray.direction * 10));
+    }
 
     public bool IsMoving()
     {

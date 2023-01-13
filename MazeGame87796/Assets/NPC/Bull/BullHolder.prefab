@@ -49,12 +49,13 @@ MonoBehaviour:
   Player: {fileID: 0}
   LookAtTarget: {fileID: 1046571229305943580}
   FootTargets:
-  - {fileID: 4682271300112421213}
   - {fileID: 5008759530894976376}
+  - {fileID: 4682271300112421213}
   BullMesh: {fileID: 5533964328121402277}
   AI: {fileID: 6903065841755003291}
   Following: 1
   StepDistance: 1.5
+  StepLenght: 4
   StepHeight: 0.4
   speed: 2
 --- !u!1 &6903065841755003291
@@ -175,10 +176,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5475791766362104388, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
-      propertyPath: m_Data.m_ConstrainedObject
-      value: 
-      objectReference: {fileID: 7687801681515463442}
     - target: {fileID: 6171213418948191347, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
       propertyPath: FootSpacing
       value: -0.7
@@ -219,24 +216,9 @@ PrefabInstance:
     - {fileID: -4069678277146110931, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
---- !u!4 &653945290188190214 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8587138083022859321, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
-  m_PrefabInstance: {fileID: 9095269388130098751}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1046571229305943580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8124152523311687715, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
-  m_PrefabInstance: {fileID: 9095269388130098751}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1666499404335999428 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7572938224379787259, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
-  m_PrefabInstance: {fileID: 9095269388130098751}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1969163754442762989 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7307938469984613586, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
   m_PrefabInstance: {fileID: 9095269388130098751}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2425285777726424011 stripped
@@ -264,7 +246,6 @@ MonoBehaviour:
   boneColor: {r: 0, g: 0, b: 1, a: 0.5}
   m_Transforms:
   - {fileID: 4267040534235154817}
-  - {fileID: 1969163754442762989}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -329,12 +310,13 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 1666499404335999428}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 653945290188190214}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -362,10 +344,5 @@ Transform:
 --- !u!1 &5533964328121402277 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3671687610644209050, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
-  m_PrefabInstance: {fileID: 9095269388130098751}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7687801681515463442 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1479553097949502765, guid: e8631a4b368bb4e24b1bb0a35a9d24fc, type: 3}
   m_PrefabInstance: {fileID: 9095269388130098751}
   m_PrefabAsset: {fileID: 0}

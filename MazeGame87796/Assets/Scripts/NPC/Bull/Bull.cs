@@ -62,6 +62,7 @@ public class Bull : MonoBehaviour
         {
             agent.SetDestination(PlayerPos);
             BullMesh.transform.position = AI.transform.position;
+            BullMesh.transform.rotation = AI.transform.rotation;
 
             for (int i = 0; i < FootTargets.Length; i++)
             {
