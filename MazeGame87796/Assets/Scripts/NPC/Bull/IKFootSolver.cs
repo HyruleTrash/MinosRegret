@@ -6,82 +6,53 @@ public class IKFootSolver : MonoBehaviour
 {
     public bool Moving = true;
 
-    [SerializeField]
-    public LayerMask terrainLayer = default;
-    [SerializeField]
-    public Transform body = default;
-    [SerializeField]
-    public IKFootSolver otherFoot = default;
-    [SerializeField]
-    public float speed = 1;
-    [SerializeField]
-    public float stepDistance = 4;
-    [SerializeField]
-    public float stepLength = 4;
-    [SerializeField]
-    public float stepHeight = 1;
-    [SerializeField]
-    public Vector3 footOffset = default;
-    float footSpacing;
-    Vector3 oldPosition, currentPosition, newPosition;
-    Vector3 oldNormal, currentNormal, newNormal;
-    float lerp;
+    public GameObject body;
+    public float FootSpacing;
 
-    private void Start()
-    {
-        footSpacing = transform.localPosition.x;
-        currentPosition = newPosition = oldPosition = transform.position;
-        currentNormal = newNormal = oldNormal = transform.up;
-        lerp = 1;
-    }
+    public float StepDistance = 1.5f;
+    public float StepHeight = 0.4f;
+    public float speed = 2f;
+
+    Vector3 currentPosition;
+    Vector3 oldPosition;
+    Vector3 newPosition;
+
+    float lerp = 0;
 
     void Update()
     {
-        transform.position = currentPosition;
-        transform.up = currentNormal;
-
-        Ray ray = new Ray(body.position + (body.right * footSpacing), Vector3.down);
-
-        if (Physics.Raycast(ray, out RaycastHit info, 10, terrainLayer.value))
+        if (Moving)
         {
-            if (Vector3.Distance(newPosition, info.point) > stepDistance && !otherFoot.IsMoving() && lerp >= 1)
+            transform.position = currentPosition;
+
+            Ray ray = new Ray(body.transform.position + (body.transform.right * FootSpacing), Vector3.down);
+            if (Physics.Raycast(ray, out RaycastHit info, 10))
             {
-                lerp = 0;
-                int direction = body.InverseTransformPoint(info.point).z > body.InverseTransformPoint(newPosition).z ? 1 : -1;
-                newPosition = info.point + (body.forward * stepLength * direction) + footOffset;
-                newNormal = info.normal;
+                if (Vector3.Distance(newPosition, info.point) > StepDistance)
+                {
+                    lerp = 0;
+                    newPosition = info.point;
+                }
+            }
+            if (lerp < 1)
+            {
+                Vector3 Footposition = Vector3.Lerp(oldPosition, newPosition, lerp);
+                Footposition.y += Mathf.Sin(lerp * Mathf.PI) * StepHeight;
+                currentPosition = Footposition;
+
+                lerp += Time.deltaTime * speed;
+            }
+            else
+            {
+                oldPosition = newPosition;
             }
         }
-
-        if (lerp < 1)
-        {
-            Vector3 tempPosition = Vector3.Lerp(oldPosition, newPosition, lerp);
-            tempPosition.y += Mathf.Sin(lerp * Mathf.PI) * stepHeight;
-
-            currentPosition = tempPosition;
-            currentNormal = Vector3.Lerp(oldNormal, newNormal, lerp);
-            lerp += Time.deltaTime * speed;
-        }
-        else
-        {
-            oldPosition = newPosition;
-            oldNormal = newNormal;
-        }
     }
-    /*
-    private void OnDrawGizmos()
+
+    void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(newPosition, 0.5f);
         Gizmos.color = Color.yellow;
-        Vector3 pos = body.position + (body.right * footSpacing);
+        Vector3 pos = body.transform.position + (body.transform.right * FootSpacing);
         Gizmos.DrawLine(pos, pos + (Vector3.down * 10));
-    }*/
-
-
-
-    public bool IsMoving()
-    {
-        return lerp < 1;
     }
 }
