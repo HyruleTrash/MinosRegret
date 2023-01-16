@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49521
+49546
 Successfully changed project path to: /Users/87796/Desktop/MinosRegret/MazeGame87796
 /Users/87796/Desktop/MinosRegret/MazeGame87796
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/87796/Desktop/MinosRegret/MazeGame8
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 107.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 132.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.4f1 (76dd1f94b339)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56055
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56234
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -79,7 +79,7 @@ Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport
 Register platform support module: /Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001313 seconds.
+Registered in 0.001696 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -90,42 +90,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 121.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 114.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  1.282 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1282ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-				TypeCache.Initialize (172ms)
-					TypeCache.ScanAssembly (171ms)
+			SetupTypeCache (277ms)
+				TypeCache.Initialize (276ms)
+					TypeCache.ScanAssembly (274ms)
 				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (461ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (500ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (121ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (121ms)
+				InitializePlatformSupportModulesInManaged (139ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (115ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003177 seconds.
+Registered in 0.004619 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -136,50 +136,50 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.618 seconds
+- Completed reload, in  1.941 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1619ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1942ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1344ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1593ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
-				TypeCache.Initialize (442ms)
-					TypeCache.ScanAssembly (436ms)
+			SetupTypeCache (556ms)
+				TypeCache.Initialize (548ms)
+					TypeCache.ScanAssembly (543ms)
 				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (612ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (678ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (10ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 4462.
 Memory consumption went from 0.75 GB to 0.74 GB.
-Total: 4.756602 ms (FindLiveObjects: 0.390382 ms CreateObjectMapping: 0.611224 ms MarkObjects: 3.451120 ms  DeleteObjects: 0.302700 ms)
+Total: 5.168016 ms (FindLiveObjects: 0.477147 ms CreateObjectMapping: 0.599850 ms MarkObjects: 3.731076 ms  DeleteObjects: 0.358678 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -193,574 +193,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 794.024079 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(fbb9ad26dd8f140fe9770e352e4ca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(fbb9ad26dd8f140fe9770e352e4ca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8262ad53816b6576844256898ff3480c') in 0.001999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.985132 seconds.
-  path: Assets/NPC/Bull/Bull.blend
-  artifactKey: Guid(0d9104fd15700470a8aba48809d84399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull.blend using Guid(0d9104fd15700470a8aba48809d84399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0fc458cf39d89a1958e16d7cc7f270') in 2.314129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
+  Time since last request: 771.859794 seconds.
   path: Assets/NPC/Bull/StoneMat.mat
   artifactKey: Guid(db6ae1f121db1489997c5cb9e048d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/StoneMat.mat using Guid(db6ae1f121db1489997c5cb9e048d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56bd550003efbb030424189825bd178') in 0.114319 seconds 
+Start importing Assets/NPC/Bull/StoneMat.mat using Guid(db6ae1f121db1489997c5cb9e048d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56bd550003efbb030424189825bd178') in 0.498049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
+  Time since last request: 0.000096 seconds.
   path: Assets/NPC/Bull/Bull Variant 1.prefab
   artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '51441ce3ad73c49a1069e7c46979d7b8') in 0.202618 seconds 
+ -> (artifact id: 'f662f7b5bb36bbb34b1a3f98df49fd70') in 0.252156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
+  Time since last request: 0.000121 seconds.
+  path: Assets/NPC/Bull/Bull.blend
+  artifactKey: Guid(0d9104fd15700470a8aba48809d84399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Bull/Bull.blend using Guid(0d9104fd15700470a8aba48809d84399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0fc458cf39d89a1958e16d7cc7f270') in 1.296322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
   path: Assets/NPC/Bull/Bull.prefab
   artifactKey: Guid(d950fcd1162fb4101a056f9b01fef0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull.prefab using Guid(d950fcd1162fb4101a056f9b01fef0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b612a6cb1b975d4d502a86a368ddeaa7') in 0.028437 seconds 
+Start importing Assets/NPC/Bull/Bull.prefab using Guid(d950fcd1162fb4101a056f9b01fef0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16919cad6123d1137c7362dcdfffffbb') in 0.032818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
+  Time since last request: 0.000110 seconds.
   path: Assets/NPC/Bull/SmoothStoneMat.mat
   artifactKey: Guid(e9fd911de88e04906b11c5c289768c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/SmoothStoneMat.mat using Guid(e9fd911de88e04906b11c5c289768c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112b22140afab46c5cd937854dc9c920') in 0.013201 seconds 
+Start importing Assets/NPC/Bull/SmoothStoneMat.mat using Guid(e9fd911de88e04906b11c5c289768c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112b22140afab46c5cd937854dc9c920') in 0.011355 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000120 seconds.
+  Time since last request: 0.000060 seconds.
   path: Assets/NPC/Bull/Bull Variant.prefab
   artifactKey: Guid(9a8be37204afb41c095f44f0f4705bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant.prefab using Guid(9a8be37204afb41c095f44f0f4705bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b337e6b9412798d271347e9e5f0c0') in 0.022415 seconds 
+Start importing Assets/NPC/Bull/Bull Variant.prefab using Guid(9a8be37204afb41c095f44f0f4705bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b337e6b9412798d271347e9e5f0c0') in 0.025276 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
+  Time since last request: 0.000101 seconds.
   path: Assets/NPC/Bull/BullTemp2.blend
   artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e98d7a3069ae8ef370f454f7abe842d') in 0.080295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2ff1e6993b3bbcb0c0279aa9530a7d0b') in 0.028853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/NPC/Bull/RubyMat.mat
-  artifactKey: Guid(3f6d915b6f3d6459d8523fd08af6eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/RubyMat.mat using Guid(3f6d915b6f3d6459d8523fd08af6eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc3fa7fc165495728da83362b49db46') in 0.011014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 602.861586 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'aed11fa0f7a5c9bdd0f5e3ae7e6d5860') in 0.039950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5257425ae3e287516637a3d34cd0bb') in 0.060900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '868e6dd65eae78c94ff49c33fa2610cf') in 0.027266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.862036 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ee5984557ee6b7d86937617faa6c6164') in 0.037988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b52627327ca1d374c249373a10bf7bb') in 0.068977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1f757286f09d25999f27d09598aa19fe') in 0.025921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 311.859017 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '91269b974e9c3e7ceba42f46b29fd62d') in 0.026630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f00e568d28e1fe7e1b881f76d6af2b08') in 0.026762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.284334 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'e73d345bf709d565a097160a1544e612') in 0.025650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'bf3eb93dac914d817d86437d57c43af4') in 0.035099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.570958 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3aad6e9a63d8eb09ba4023518a20e994') in 0.031170 seconds 
+Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541c6de764f0efbac886f5dcbf6d9617') in 0.068570 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000164 seconds.
   path: Assets/NPC/Bull/BullHolder.prefab
   artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '28b44d8c95232d11b3c32f3afeaa340f') in 0.024471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.261783 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '590e8ffd9e74052bb4e186fb15705c93') in 0.028775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '24de9dd9c2c978220601449163a06489') in 0.030894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.765336 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'df1ac92281f8b03c626c63e5e7e34434') in 0.027809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc54906cef555c97395c934fd1b01447') in 0.054048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3053a591beff9fadc7a4430da6fc2372') in 0.027961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.607042 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '720381324cf13ad6b6a04750ec8fe143') in 0.027438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '8aec799521286732f34045948a7290bd') in 0.026782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.488458 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '591818ab7be58e86e6ca249bf7358cca') in 0.027627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'b6b9fc9fb3e49938c642e744f07ef620') in 0.030020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.031988 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3ad4d26d87c65db37288fc1f934e3a83') in 0.028132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1897f47131bcf944a93b796505de5551') in 0.033414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.081121 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '30922250d62d190be160cf34fa85b7e4') in 0.025736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd2a95d0920f03edd7bb2f0405f4cf923') in 0.030023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.854022 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a7cc56689c5411528d985230f381f203') in 0.033036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.390878 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3b06f48b72c4f28eb13e3935f8374eaf') in 0.027190 seconds 
+ -> (artifact id: '315d443b3d657cfef9cc9305b3d88aea') in 0.027005 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000119 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '72ffe8ee5cc919e5ddf51e497643cf0b') in 0.026806 seconds 
+  path: Assets/NPC/Bull/RubyMat.mat
+  artifactKey: Guid(3f6d915b6f3d6459d8523fd08af6eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Bull/RubyMat.mat using Guid(3f6d915b6f3d6459d8523fd08af6eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc3fa7fc165495728da83362b49db46') in 0.011232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.072499 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd0ef50197fd1fe9d42fab40fc045cf15') in 0.031661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1c6a461384fd62cadc95d5c7a371fffd') in 0.031250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.817333 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd2f382eaf2fa4aaf2688b56ecfbb4d28') in 0.026696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ec44665179f4032d9a194fb3926839f4') in 0.026663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 971.804258 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '79f5cd5a0a9cc69051569688306099be') in 0.046643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a5b80200759b1613899d82c37ac42') in 0.053697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f169a4e627e83eda6396b920ed06dd1e') in 0.029433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.099762 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '78d9addc448b2df5af7cf4b4cd18705d') in 0.023611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ee693f0258e1e430cebc236de9659d54') in 0.026766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.330609 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a7912f1dccb1cf73f0cb1339587f7218') in 0.024834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '6197c2ed594382053fbfcb3489e7648b') in 0.032520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.093283 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2ff2ed2c9992db5a7d1616a6ddeae43b') in 0.032668 seconds 
+  Time since last request: 62.819131 seconds.
+  path: Assets/Scenes/Game/LightingData.asset
+  artifactKey: Guid(5fb9bcba9a63046078f181a98957426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/LightingData.asset using Guid(5fb9bcba9a63046078f181a98957426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9ce640ed6e96751685ed11bec3f72') in 0.099931 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000089 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5756a094d4488fce972e238720f3630') in 0.055931 seconds 
+  path: Assets/Scenes/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(e39da1f98fcba43f7ad0c4463d2d446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/ReflectionProbe-0.exr using Guid(e39da1f98fcba43f7ad0c4463d2d446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071d7b866958decd81ebd78398c2f7f8') in 0.840345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '4bedfe19b43927e32aebc6247dce7b22') in 0.028818 seconds 
+  Time since last request: 0.000172 seconds.
+  path: Assets/Scenes/Game/NavMesh-NavMesh 1.asset
+  artifactKey: Guid(f8da22ba0c3554e8aa27c27e03a3cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/NavMesh-NavMesh 1.asset using Guid(f8da22ba0c3554e8aa27c27e03a3cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e3c81c82c7e30d3c2bd9edd31e5db3') in 0.002032 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.294812 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1e7b8afa1f971e07006c06da02a628fd') in 0.028833 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/Game/NavMesh-NavMesh.asset
+  artifactKey: Guid(4b6cb6cc10de54445aba26b307bbc08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/NavMesh-NavMesh.asset using Guid(4b6cb6cc10de54445aba26b307bbc08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4714b68cb3679f64899a930e0c9941') in 0.002159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ec3a40863d13457b0c95157670f2332c') in 0.035150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.571058 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd1e23f923b1128f008d8012b917943f8') in 0.032017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.841978 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd3b70f568947f88371658e604a1bb617') in 0.024291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a91c0e0ba14737fd8cdbdf5079d51bb3') in 0.022979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.839576 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'dc2ea856ca8468b4e3329e33a1e1c867') in 0.026963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'e7373758b767ed11c1773dfd918e9c88') in 0.028528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.901843 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'e3d0160c21d14019bd5db1989fcb6418') in 0.027166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef591c01f643bba73d421625c2c043cd') in 0.058031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '67b8b200ac5bb98cdd68be84661d63bb') in 0.026891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.122771 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'cad261e4a11d0cd0418492dddd30a4da') in 0.030194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd0605b59a67a71f52c72d3f924c1de8d') in 0.026651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.566440 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '642187dee971b64c3d743f4b4824c497') in 0.028887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '31c4110ec5f412adaf2b5d53e966ea4c') in 0.026691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.466675 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ca3b47735556f36d078d82061494a72c') in 0.027461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbd1684c11905bb3b8abc272bf06f58') in 0.055376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '77d3106c58f677bf6a6fd6c284e435e2') in 0.028957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.741019 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '9f7ba89586b1031c8aced7944b514bfe') in 0.029381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '400953c0211da966a6d268e7e35603ea') in 0.028630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.715284 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ff934abd17be3f8abae861c818ff2f53') in 0.026381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '0593467249748357bf56fa6b7aa59944') in 0.029812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.869384 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'bfea1b9b9367afa9ebd37bbeb456b3af') in 0.027802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd91dadfba0969f22ebb25f7572ceb3fc') in 0.030686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.048690 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '6332f128f54b9a7a96b4b246195f506f') in 0.032416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ecfdb6debfed288e21b9647ae5620ad7') in 0.029078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.717411 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '22e07452d4c4e57923800a2d0d5228c1') in 0.025199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'be0c903f8d303ff4b9778169d2e8f3ad') in 0.029811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.668622 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '0138c2bbb0b22362dc298e84c964200d') in 0.025333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1c5adab0b437c10ee23a736c36954c4b') in 0.031440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.403293 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '4f0063f831ade31315a05682ac670dcb') in 0.026573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'edc2306424a1d9c66959c22e3b84f253') in 0.025301 seconds 
+  Time since last request: 1.992655 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(fbb9ad26dd8f140fe9770e352e4ca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(fbb9ad26dd8f140fe9770e352e4ca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c2b6843a127977ceb475725c5294b3') in 0.000741 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004519 seconds.
+Registered in 0.003549 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -771,46 +291,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.768 seconds
+- Completed reload, in  1.468 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1769ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1461ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1202ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
-				TypeCache.Initialize (401ms)
-					TypeCache.ScanAssembly (394ms)
-				ResolveRequiredComponents (11ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (710ms)
+			SetupTypeCache (392ms)
+				TypeCache.Initialize (385ms)
+					TypeCache.ScanAssembly (380ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (570ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (102ms)
-				SetLoadedEditorAssemblies (34ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4512.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.210652 ms (FindLiveObjects: 0.304868 ms CreateObjectMapping: 0.298343 ms MarkObjects: 3.359516 ms  DeleteObjects: 0.246760 ms)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4514.
+Memory consumption went from 0.77 GB to 0.76 GB.
+Total: 4.465013 ms (FindLiveObjects: 0.382032 ms CreateObjectMapping: 0.347814 ms MarkObjects: 3.517888 ms  DeleteObjects: 0.216086 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -823,65 +343,464 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 93.412120 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f93926749a77cd839ee422fc5426c3a1') in 0.136681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '5dad761d2e64aeb210adc7b5e7a46c68') in 0.028676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.582535 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '5adf5ca773f381b5e952577a20dfa83c') in 0.028916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a82c0b7d71a603035155f75b04a81904') in 0.028268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.884772 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '5b631d4004d86a1c2b999b8553aff140') in 0.030796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '420c9515219679b170ac759837cab289') in 0.028130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.837028 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f758d57cf98fba84dd666bee25ecb12e') in 0.027256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '57f2f50d7e96db478859b7147c300f83') in 0.032182 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003355 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1402ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+				TypeCache.Initialize (385ms)
+					TypeCache.ScanAssembly (380ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4518.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.327750 ms (FindLiveObjects: 0.352563 ms CreateObjectMapping: 0.396820 ms MarkObjects: 3.313752 ms  DeleteObjects: 0.263605 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003328 seconds.
+Registered in 0.003604 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+				TypeCache.Initialize (392ms)
+					TypeCache.ScanAssembly (384ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4522.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.257707 ms (FindLiveObjects: 0.305112 ms CreateObjectMapping: 0.324718 ms MarkObjects: 3.394002 ms  DeleteObjects: 0.232291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+				TypeCache.Initialize (383ms)
+					TypeCache.ScanAssembly (377ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4526.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.903478 ms (FindLiveObjects: 0.329041 ms CreateObjectMapping: 0.355373 ms MarkObjects: 3.908477 ms  DeleteObjects: 0.309465 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1453ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+				TypeCache.Initialize (405ms)
+					TypeCache.ScanAssembly (396ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4530.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.288862 ms (FindLiveObjects: 0.304804 ms CreateObjectMapping: 0.340532 ms MarkObjects: 3.395733 ms  DeleteObjects: 0.246607 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+				TypeCache.Initialize (396ms)
+					TypeCache.ScanAssembly (389ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4534.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.483640 ms (FindLiveObjects: 0.361457 ms CreateObjectMapping: 0.395497 ms MarkObjects: 3.413318 ms  DeleteObjects: 0.312187 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+				TypeCache.Initialize (383ms)
+					TypeCache.ScanAssembly (377ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4538.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.471873 ms (FindLiveObjects: 0.293996 ms CreateObjectMapping: 0.384713 ms MarkObjects: 3.490485 ms  DeleteObjects: 0.301492 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006075 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2759ms)
+		BeginReloadAssembly (431ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (189ms)
+		EndReloadAssembly (2188ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+				TypeCache.Initialize (435ms)
+					TypeCache.ScanAssembly (427ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1046ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4542.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.364567 ms (FindLiveObjects: 0.317382 ms CreateObjectMapping: 0.298765 ms MarkObjects: 3.474087 ms  DeleteObjects: 0.273353 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003923 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -895,459 +814,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.502 seconds
+- Completed reload, in  1.573 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1503ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1573ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1218ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1280ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
-				TypeCache.Initialize (420ms)
-					TypeCache.ScanAssembly (414ms)
+			SetupTypeCache (486ms)
+				TypeCache.Initialize (478ms)
+					TypeCache.ScanAssembly (472ms)
 				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (528ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (519ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (349ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4516.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.682710 ms (FindLiveObjects: 0.290291 ms CreateObjectMapping: 0.397532 ms MarkObjects: 3.662610 ms  DeleteObjects: 0.331140 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 60.290027 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3c4db1a4f4a7e1828e069637aa19f51b') in 0.135307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '02e33f423a6c436831451166434e0cf9') in 0.030985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.764823 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '5c85a2424f819b481fb598508a35ca44') in 0.031701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '56d8a1fe834f26757363904730718044') in 0.040885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.962015 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'b738e98a5b1216bff07929c39b0600bf') in 0.036717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '71a598728628d807b0ba72045af73167') in 0.036846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.115890 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'd3540a0c18ddf8413eda256d5dbe66f7') in 0.031772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1cb0302278c74222f6c3f8c083108f70') in 0.032746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.906244 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'dde60b7fbdc7fae0eeb3aba696bd2604') in 0.028306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'e784095f5128f6f75a0631de3eebea41') in 0.029495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.324960 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '4e053009e8bf16d351c31829e679183a') in 0.025485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1520fd7442a83d89bba45b6fb5779e92') in 0.025201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.951726 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '9a1fe42203322a00073d3895c0d39dd5') in 0.030875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '8350407c1d90cf1d8119b73e94a19de7') in 0.023817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.660245 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '3828db5347e9fe081c40e3c7699b053d') in 0.029741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '61be693627dc1520a8cba1f413508657') in 0.029970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.262669 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '436b45e27b7b665598184e287013778e') in 0.024428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'c41fb57d3a83ca40fe6586d3f97ec01d') in 0.040746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.070624 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2c421feda80719aef263fcaed91dce56') in 0.032397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '89f2af3097068cac4ae8c2c5e1c807b5') in 0.033163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.905895 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '6b968901dcc054db3f075edfea6fe450') in 0.034718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '93ab10d79599dca8e583bdfa26d8f9a0') in 0.029622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.351796 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f999b9261f5945462d1a3d65f3e1fa36') in 0.025123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '0c949be7ec09c5fd7256c5d9ade575ff') in 0.033571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.350286 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'c21b8e934de9ddf3728c8bf2dafea5fc') in 0.026175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a0171d0192feccefdae2ef1eb0e5591f') in 0.030924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.193029 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a911b35832f76ff9246c2bd2e8ca3f9f') in 0.033783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'a47df376e737bb5d83e89947ae481257') in 0.028377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 171.634852 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '38bdd6a307273992a99e97ed52ad2b55') in 0.025358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/NPC/Bull/BullTemp2.blend
-  artifactKey: Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullTemp2.blend using Guid(9d55a53aacebb4f0592a358ce782f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541c6de764f0efbac886f5dcbf6d9617') in 0.084409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '8860988dad516f691c7738ebffcd4f7a') in 0.025709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.628362 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'ac3430cde2d295d281025f06527d49c8') in 0.026042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '849b2693971eb2de4be0f859d158eeea') in 0.027665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.232578 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'b57d0d89d9be33546e48badabbcd5b9f') in 0.025153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '042b5f35e7a585383e6ed8a47385dd08') in 0.034035 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003197 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.526 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1527ms)
-		BeginReloadAssembly (163ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1231ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
-				TypeCache.Initialize (415ms)
-					TypeCache.ScanAssembly (410ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (555ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4520.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.612492 ms (FindLiveObjects: 0.333063 ms CreateObjectMapping: 0.413887 ms MarkObjects: 3.553892 ms  DeleteObjects: 0.310520 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1118.959385 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '5cebd7f93297419349ad7cdc31323df6') in 0.122982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '8b0f704b4f81069ddc0bd8f024c28c43') in 0.027734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.160252 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '6cd59053bd3e516c9b5adfdabbb5e20f') in 0.027448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2b2fa1246811da231fb8708ab2d7f1c8') in 0.029192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.156455 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2dd04330e792ee1066e885fcda88b9d2') in 0.026515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '1c28f2e7b35783705614de584b5994ec') in 0.031953 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002807 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1431ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (456ms)
-				TypeCache.Initialize (449ms)
-					TypeCache.ScanAssembly (444ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (482ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
+				InitializePlatformSupportModulesInManaged (45ms)
 				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4524.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.858271 ms (FindLiveObjects: 0.330366 ms CreateObjectMapping: 0.673625 ms MarkObjects: 3.552402 ms  DeleteObjects: 0.300838 ms)
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4546.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.122645 ms (FindLiveObjects: 0.302821 ms CreateObjectMapping: 0.327030 ms MarkObjects: 3.085988 ms  DeleteObjects: 0.405285 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1360,23 +863,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 15.062856 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '74f323c9c07d3c094b2c5c046802e494') in 0.116588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '4218c5938ddd882e00bde0c1aafe99e2') in 0.033598 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002923 seconds.
+Registered in 0.003628 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -1387,340 +876,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
+- Completed reload, in  1.766 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (351ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (20ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1057ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (158ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-				TypeCache.Initialize (361ms)
-					TypeCache.ScanAssembly (356ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (475ms)
+			SetupTypeCache (448ms)
+				TypeCache.Initialize (440ms)
+					TypeCache.ScanAssembly (433ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (547ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (10ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4528.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.040510 ms (FindLiveObjects: 0.356156 ms CreateObjectMapping: 0.393792 ms MarkObjects: 3.046389 ms  DeleteObjects: 0.220523 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 117.868141 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '4226636d8992d2d2a44e474c3aeb297f') in 0.117223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.384849 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'fd3a29789b4a56836fda62cb958f9f1b') in 0.030313 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003194 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.337 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1338ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1078ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-				TypeCache.Initialize (379ms)
-					TypeCache.ScanAssembly (374ms)
-				ResolveRequiredComponents (9ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (475ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (325ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (358ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4532.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.313112 ms (FindLiveObjects: 0.282348 ms CreateObjectMapping: 0.303132 ms MarkObjects: 3.470460 ms  DeleteObjects: 0.233507 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002960 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.330 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1331ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1076ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-				TypeCache.Initialize (370ms)
-					TypeCache.ScanAssembly (365ms)
-				ResolveRequiredComponents (8ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (481ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4536.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.443435 ms (FindLiveObjects: 0.293056 ms CreateObjectMapping: 0.383216 ms MarkObjects: 3.481599 ms  DeleteObjects: 0.284485 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002865 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1060ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-				TypeCache.Initialize (364ms)
-					TypeCache.ScanAssembly (359ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4540.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.589093 ms (FindLiveObjects: 0.386679 ms CreateObjectMapping: 0.379178 ms MarkObjects: 3.555438 ms  DeleteObjects: 0.266575 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 862.739267 seconds.
-  path: Assets/NPC/Bull/Bull.prefab
-  artifactKey: Guid(d950fcd1162fb4101a056f9b01fef0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull.prefab using Guid(d950fcd1162fb4101a056f9b01fef0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16919cad6123d1137c7362dcdfffffbb') in 0.097024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '110055f45b560ba92bde2e5dfd4f4654') in 0.033873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '2e456f967c93f58b76aad37eead3092f') in 0.024157 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003015 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1038ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-				TypeCache.Initialize (382ms)
-					TypeCache.ScanAssembly (376ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (433ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4544.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.095279 ms (FindLiveObjects: 0.333459 ms CreateObjectMapping: 0.338740 ms MarkObjects: 3.187296 ms  DeleteObjects: 0.234538 ms)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4550.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 4.676803 ms (FindLiveObjects: 0.433558 ms CreateObjectMapping: 0.275432 ms MarkObjects: 3.716331 ms  DeleteObjects: 0.249777 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1735,7 +930,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003049 seconds.
+Registered in 0.004038 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -1746,204 +941,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  7.000 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (7001ms)
+		BeginReloadAssembly (1695ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (86ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1062ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-				TypeCache.Initialize (366ms)
-					TypeCache.ScanAssembly (361ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (470ms)
+			CreateAndSetChildDomain (557ms)
+		EndReloadAssembly (5004ms)
+			LoadAssemblies (1929ms)
+			RebuildTransferFunctionScriptingTraits (7ms)
+			SetupTypeCache (2208ms)
+				TypeCache.Initialize (2194ms)
+					TypeCache.ScanAssembly (2088ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (93ms)
+			RebuildScriptCaches (287ms)
+			SetupLoadedEditorAssemblies (933ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (19ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (603ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (3ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4548.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.091517 ms (FindLiveObjects: 0.351158 ms CreateObjectMapping: 0.392617 ms MarkObjects: 3.112271 ms  DeleteObjects: 0.234217 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 181.680998 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '952f066ef2a8c8ffefedb7870bae4b22') in 0.099473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '503b9a9a988d546700bdbb2b1089803c') in 0.022710 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002886 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1334ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1066ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-				TypeCache.Initialize (387ms)
-					TypeCache.ScanAssembly (381ms)
-				ResolveRequiredComponents (8ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4552.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.362661 ms (FindLiveObjects: 0.275393 ms CreateObjectMapping: 0.433492 ms MarkObjects: 3.423089 ms  DeleteObjects: 0.229777 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 47.895513 seconds.
-  path: Assets/NPC/Bull/Bull Variant 1.prefab
-  artifactKey: Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/Bull Variant 1.prefab using Guid(e8631a4b368bb4e24b1bb0a35a9d24fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: 'f662f7b5bb36bbb34b1a3f98df49fd70') in 0.101310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/NPC/Bull/BullHolder.prefab
-  artifactKey: Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Bull/BullHolder.prefab using Guid(0abfc7b78ac754b6ba0abef10630fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
- -> (artifact id: '315d443b3d657cfef9cc9305b3d88aea') in 0.025287 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003221 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1261ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (991ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
-				TypeCache.Initialize (359ms)
-					TypeCache.ScanAssembly (355ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3967 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4556.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 3.734215 ms (FindLiveObjects: 0.304896 ms CreateObjectMapping: 0.254071 ms MarkObjects: 2.966855 ms  DeleteObjects: 0.207473 ms)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4554.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 17.007602 ms (FindLiveObjects: 0.455037 ms CreateObjectMapping: 0.728290 ms MarkObjects: 14.506648 ms  DeleteObjects: 1.254994 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1958,7 +995,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003200 seconds.
+Registered in 0.003370 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -1969,111 +1006,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.329 seconds
+- Completed reload, in  6.211 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1330ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (6213ms)
+		BeginReloadAssembly (4445ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (50ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1061ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
-				TypeCache.Initialize (373ms)
-					TypeCache.ScanAssembly (368ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (466ms)
+			CreateAndSetChildDomain (2492ms)
+		EndReloadAssembly (1515ms)
+			LoadAssemblies (1886ms)
+			RebuildTransferFunctionScriptingTraits (4ms)
+			SetupTypeCache (614ms)
+				TypeCache.Initialize (606ms)
+					TypeCache.ScanAssembly (574ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (18ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (553ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4560.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 5.116649 ms (FindLiveObjects: 0.355225 ms CreateObjectMapping: 0.306553 ms MarkObjects: 4.226635 ms  DeleteObjects: 0.227175 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002831 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/87796/Desktop/MinosRegret/MazeGame87796/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1346ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1077ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-				TypeCache.Initialize (381ms)
-					TypeCache.ScanAssembly (375ms)
-				ResolveRequiredComponents (7ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (463ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4564.
-Memory consumption went from 0.76 GB to 0.76 GB.
-Total: 4.692551 ms (FindLiveObjects: 0.370181 ms CreateObjectMapping: 0.328966 ms MarkObjects: 3.729971 ms  DeleteObjects: 0.241202 ms)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4558.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 6.762765 ms (FindLiveObjects: 0.464116 ms CreateObjectMapping: 0.729332 ms MarkObjects: 5.271408 ms  DeleteObjects: 0.291422 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

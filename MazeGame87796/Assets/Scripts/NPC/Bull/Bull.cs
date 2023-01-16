@@ -48,13 +48,16 @@ public class Bull : MonoBehaviour
                 for (int i = 0; i < FootTargets.Length; i++)
                 {
                     FootTargets[i].GetComponent<IKFootSolver>().Moving = true;
+                    agent.speed = speed;
+                    FootTargets[i].GetComponent<IKFootSolver>().speed = speed * 0.07f;
                 }
             }
             else
             {
                 for (int i = 0; i < FootTargets.Length; i++)
                 {
-                    FootTargets[i].GetComponent<IKFootSolver>().speed = agent.speed;
+                    agent.speed = speed;
+                    FootTargets[i].GetComponent<IKFootSolver>().speed = speed * 0.07f;
                 }
             }
         }
