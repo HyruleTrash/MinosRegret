@@ -22,6 +22,10 @@ public class pickUpRaycast : MonoBehaviour
                 {
                     hit.transform.GetComponent<Collectable>().activate();
                 }
+                else if (hit.transform.tag == "NPC")
+                {
+                    hit.transform.GetComponent<Npc>().Interact();
+                }
                 else
                 {
                     this.gameObject.transform.parent.gameObject.transform.parent.GetComponent<Player>().Use();
