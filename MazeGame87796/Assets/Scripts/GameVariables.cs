@@ -10,6 +10,8 @@ public class GameVariables : MonoBehaviour
     public int PowerUpsCollected = 0;
     public float PlayTime = 0f;
 
+    public int Gamestage = 0;
+
     public static GameVariables instance;
 
     float time = 0f;

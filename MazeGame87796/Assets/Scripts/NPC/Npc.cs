@@ -19,12 +19,13 @@ public class Npc : MonoBehaviour
     float TimeLeft = 0;
     float OriginalAlpha;
 
+
     private void Start()
     {
         OriginalAlpha = PlayerTextPlane.color.a;
     }
 
-    public void Interact()
+    public void Interact(Player playerscript)
     {
         if (!playing)
         {
@@ -37,9 +38,16 @@ public class Npc : MonoBehaviour
                 switch (Name)
                 {
                     case "Bull":
-                        if (Count == 3)
+                        if (Count == 4)
                         {
-                            Count++;
+                            if (playerscript.Coins >= 20)
+                            {
+                                Count++;
+                                playerscript.Coins -= 20;
+                                playerscript.cointex.text = "Coins: " + playerscript.Coins;
+                                playerscript.Items.Add(new Item("Hat", 0, false));
+                                FindObjectOfType<AudioManager>().Play("Hat");
+                            }
                         }
                         else
                         {
@@ -70,6 +78,14 @@ public class Npc : MonoBehaviour
         switch (Name)
         {
             case "Bull":
+                if (Count == 5)
+                {
+                    Count--;
+                }
+                if (Count == 6)
+                {
+                    Count = 4;
+                }
                 break;
             default:
                 break;
