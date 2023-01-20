@@ -9,7 +9,7 @@ public class Collectable : MonoBehaviour
     public int LevelOfUnlock = 0;
     public string LockedMessage = "This doesn't seem moveable until later";
     GameVariables gamevars;
-    public GameObject[] EventGameStateChange;
+    public List<GameObject> EventGameStateChange;
 
     public int TimeMax = 2;
     public Color NpcColor;
@@ -143,9 +143,9 @@ public class Collectable : MonoBehaviour
                         if (TotalPieces > gamevars.Gamestage)
                         {
                             gamevars.Gamestage = TotalPieces;
-                            for (int i = 0; i < EventGameStateChange.Length; i++)
+                            for (int i = 0; i < EventGameStateChange.Count; i++)
                             {
-                                //EventGameStateChange[i]
+                                EventGameStateChange[i].GetComponent<GameChanged>().StateUpdate(gamevars.Gamestage);
                             }
                         }
                     }

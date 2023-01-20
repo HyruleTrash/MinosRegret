@@ -8,6 +8,7 @@ TagManager:
   - Collectable
   - Map
   - PauseButton
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Leaf
   - PostProssesing
   - NavMeshBull
-  - 
+  - ObjectsInHand
   - 
   - 
   - 
