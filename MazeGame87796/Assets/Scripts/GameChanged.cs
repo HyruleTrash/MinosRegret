@@ -11,6 +11,7 @@ public class GameChanged : MonoBehaviour
     public Material[] Stone;
 
     public GameObject ToSpawn;
+    public GameObject player;
 
     private void Start()
     {
@@ -21,6 +22,12 @@ public class GameChanged : MonoBehaviour
             {
                 collectables[i].EventGameStateChange.Add(this.gameObject);
             }
+        }
+        switch (Name)
+        {
+            case "RegretSpawner":
+                ToSpawn.GetComponent<Regret>().player = player;
+                break;
         }
     }
 
