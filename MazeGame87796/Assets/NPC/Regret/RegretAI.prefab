@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2294092453483051028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.74, y: -16.22, z: -0.49}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2294092455009893946}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &2294092453483051026
 NavMeshAgent:
@@ -70,6 +70,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   agent: {fileID: 2294092453483051026}
+  Layer:
+    serializedVersion: 2
+    m_Bits: 855
+  RaycastLookYOffset: 5
+  walkDisctance: 40
+  HitDistace: 7
+  MaxTimeBetweenFrames: 2
 --- !u!1 &2294092455009893949
 GameObject:
   m_ObjectHideFlags: 0

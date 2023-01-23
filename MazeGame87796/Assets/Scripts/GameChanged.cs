@@ -39,7 +39,10 @@ public class GameChanged : MonoBehaviour
                 {
                     MeshRenderer renderer = MapObjects[i].GetComponent<MeshRenderer>();
                     Material[] materials = renderer.materials;
-                    materials[0] = Grass[Newstate];
+                    if (Newstate < Grass.Length)
+                    {
+                        materials[0] = Grass[Newstate];
+                    }
                     if (materials.Length > 1)
                     {
                         materials[1] = Stone[Newstate];
