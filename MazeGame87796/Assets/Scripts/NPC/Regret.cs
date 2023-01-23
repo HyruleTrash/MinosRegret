@@ -17,6 +17,13 @@ public class Regret : MonoBehaviour
     bool FollowingPlayer = false;
     float maxDistance = 300f;
     Vector3 NewPosRoam;
+    Vector3 Oldpos;
+    Vector3 Olderpos;
+
+    private void Start()
+    {
+        Oldpos = transform.position;
+    }
 
     void Update()
     {
@@ -28,17 +35,28 @@ public class Regret : MonoBehaviour
             AppHelper.Quit();
         }
 
-        Debug.Log(NewPosRoam);
         if (FollowingPlayer)
         {
             agent.SetDestination(player.transform.position);
         }
         else
         {
-            Vector3 NoYRegretPos = new Vector3(transform.position.x, 0, transform.position.z);
-            if (Vector3.Distance(NoYRegretPos, NewPosRoam) < MinCloseValueRoamPos)
+            Vector2 NoYRegretPos = new Vector2(transform.position.x, transform.position.z);
+            Debug.Log(NewPosRoam != null);
+            if (Vector3.Distance(NoYRegretPos, new Vector2(NewPosRoam.x, NewPosRoam.z)) < MinCloseValueRoamPos)
             {
                 NewPosRoam = NewRoamPos();
+            }
+            else
+            {
+                if (Olderpos == transform.position)
+                {
+                    NewPosRoam = NewRoamPos();
+                }
+                if (Oldpos == transform.position)
+                {
+                    Olderpos = transform.position;
+                }
             }
             if (NewPosRoam != null)
             {
@@ -65,6 +83,8 @@ public class Regret : MonoBehaviour
                 }
             }
         }
+
+        Oldpos = transform.position;
     }
 
     Vector3 NewRoamPos()
@@ -78,6 +98,7 @@ public class Regret : MonoBehaviour
         {
             NewPosRoamTemp = hit2.point;
         }
+
         return NewPosRoamTemp;
     }
 }
