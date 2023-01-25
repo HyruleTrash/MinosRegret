@@ -8,25 +8,106 @@ public class Regret : MonoBehaviour
     public GameObject player;
     public NavMeshAgent agent;
     public LayerMask Layer;
-    public float RaycastLookYOffset = 5f;
+    public float RaycastLookYOffset = 1.2f;
     public float walkDisctance = 20f;
     public float MinCloseValueRoamPos = 2;
     public float HitDistace = 5f;
-    public float MaxTimeBetweenFrames = 2f;
-    bool Roaming = false;
-    bool FollowingPlayer = false;
+    public Vector3[] offsets;
+    public bool Roaming = true;
+    public bool FollowingPlayer = false;
     float maxDistance = 300f;
     Vector3 NewPosRoam;
     Vector3 Oldpos;
     Vector3 Olderpos;
 
+    bool RoamTimerPlaying = false;
+    float TimeUntilNewRoam = 0;
+    public float StartTimeNewRoam = 1.5f;
+
+    public float MaxTimeBetweenFrames = 2f;
+    float MaxFrameTime;
+    float currentFrameTime = 0;
+    int CurrentFrame = 0;
+    int LastFrame = 0;
+    public Texture[] Frames;
+    bool changingFrames = false;
+
+    public float Highspeed = 10;
+    public float lowspeed = 5;
+
+
     private void Start()
     {
         Oldpos = transform.position;
+        player = FindObjectOfType<Player>().gameObject;
+
+        NewFrame();
+    }
+
+    void NewFrame()
+    {
+        MaxFrameTime = Mathf.RoundToInt(Random.RandomRange(0, MaxTimeBetweenFrames));
+        if (MaxFrameTime < 0.2f)
+        {
+            MaxFrameTime = 0.2f;
+        }
+        int tempNewFrame = Mathf.RoundToInt(Random.RandomRange(0, Frames.Length));
+        while (tempNewFrame == CurrentFrame && tempNewFrame == LastFrame)
+        {
+            tempNewFrame = Mathf.RoundToInt(Random.RandomRange(0, Frames.Length));
+            if (tempNewFrame != CurrentFrame && tempNewFrame != LastFrame)
+            {
+                break;
+            }
+        }
+        LastFrame = CurrentFrame;
+        CurrentFrame = tempNewFrame;
+
+        gameObject.GetComponentInChildren<MeshRenderer>().material.SetTexture("_MainTex", Frames[CurrentFrame]);
+        currentFrameTime = 0;
+        changingFrames = false;
+    }
+
+    public void UpdateCurrSpeed(){
+        if (FollowingPlayer)
+        {
+            if (agent.speed != Highspeed)
+            {
+                agent.speed = Highspeed;
+            }
+        }
+        else
+        {
+            if (agent.speed != lowspeed)
+            {
+                agent.speed = lowspeed;
+            }
+        }
     }
 
     void Update()
     {
+        if (RoamTimerPlaying = true)
+        {
+            TimeUntilNewRoam += Time.deltaTime;
+            if (TimeUntilNewRoam > StartTimeNewRoam)
+            {
+                Roaming = true;
+                RoamTimerPlaying = false;
+                FollowingPlayer = false;
+            }
+        }
+
+        if (!changingFrames)
+        {
+            currentFrameTime += Time.deltaTime;
+            if (currentFrameTime >= MaxFrameTime)
+            {
+                changingFrames = true;
+                NewFrame();
+            }
+        }
+
         Vector3 PlayerNoY = new Vector3(player.transform.position.x, 0, player.transform.position.z);
         transform.LookAt(PlayerNoY);
         
@@ -37,12 +118,16 @@ public class Regret : MonoBehaviour
 
         if (FollowingPlayer)
         {
+            if (agent.speed != Highspeed)
+            {
+                agent.speed = Highspeed;
+            }
             agent.SetDestination(player.transform.position);
         }
         else
         {
             Vector2 NoYRegretPos = new Vector2(transform.position.x, transform.position.z);
-            Debug.Log(NewPosRoam != null);
+            //Debug.Log(NewPosRoam != null);
             if (Vector3.Distance(NoYRegretPos, new Vector2(NewPosRoam.x, NewPosRoam.z)) < MinCloseValueRoamPos)
             {
                 NewPosRoam = NewRoamPos();
@@ -60,28 +145,53 @@ public class Regret : MonoBehaviour
             }
             if (NewPosRoam != null)
             {
+                if (agent.speed != lowspeed)
+                {
+                    agent.speed = lowspeed;
+                }
                 agent.SetDestination(NewPosRoam);
             }
         }
 
-        RaycastHit hit;
-        Debug.DrawRay(transform.position + new Vector3(0, RaycastLookYOffset, 0), (PlayerNoY + new Vector3(0, 2, 0) - transform.position).normalized * maxDistance, Color.red);
-        if (Physics.Raycast(transform.position + new Vector3(0, RaycastLookYOffset, 0), (PlayerNoY + new Vector3(0, 2, 0) - transform.position).normalized, out hit, maxDistance, Layer))
+        bool[] Rayhits = new bool[offsets.Length];
+        for (int i = 0; i < offsets.Length; i++)
         {
-            if (hit.transform.parent.name == player.name)
+            RaycastHit hit;
+            Vector3 Dir = ((player.transform.position + new Vector3(0, RaycastLookYOffset, 0)) - (transform.position + offsets[i])).normalized;
+            Debug.DrawRay(transform.position + offsets[i], Dir * maxDistance, Color.red);
+            if (Physics.Raycast(transform.position + offsets[i], Dir, out hit, maxDistance, Layer))
             {
-                FollowingPlayer = true;
-                Roaming = false;
-            }
-            else
-            {
-                FollowingPlayer = false;
-                if (Roaming == false)
+                if (hit.transform.parent.name == player.name)
                 {
-                    NewPosRoam = NewRoamPos();
-                    Roaming = true;
+                    Rayhits[i] = true;
+                }
+                else
+                {
+                    Rayhits[i] = false;
                 }
             }
+        }
+        bool AllFalse = true;
+        for (int i = 0; i < Rayhits.Length; i++)
+        {
+            if (Rayhits[i] == true)
+            {
+                AllFalse = false;
+            }
+        }
+        if (AllFalse)
+        {
+            if (RoamTimerPlaying == false)
+            {
+                NewPosRoam = NewRoamPos();
+                RoamTimerPlaying = true;
+                TimeUntilNewRoam = 0;
+            }
+        }
+        else
+        {
+            FollowingPlayer = true;
+            Roaming = false;
         }
 
         Oldpos = transform.position;

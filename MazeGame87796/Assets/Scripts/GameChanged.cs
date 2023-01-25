@@ -9,6 +9,12 @@ public class GameChanged : MonoBehaviour
     public GameObject[] MapObjects;
     public Material[] Grass;
     public Material[] Stone;
+    public Material[] Leaves;
+
+    public float[] Lowspeeds;
+    public float[] Highspeeds;
+
+    public int DissapearAt = 2;
 
     public GameObject ToSpawn;
     public GameObject player;
@@ -34,6 +40,18 @@ public class GameChanged : MonoBehaviour
     public void StateUpdate(int Newstate)
     {
         switch (Name){
+            case "Bushes":
+                foreach (Transform Child in transform)
+                {
+                    MeshRenderer renderer = Child.GetComponent<MeshRenderer>();
+                    Material[] materials = renderer.materials;
+                    if (Newstate < Leaves.Length)
+                    {
+                        materials[0] = Leaves[Newstate];
+                    }
+                    renderer.materials = materials;
+                }
+                break;
             case "Map":
                 for (int i = 0; i < MapObjects.Length; i++)
                 {
@@ -54,6 +72,19 @@ public class GameChanged : MonoBehaviour
                 if (Newstate == 2)
                 {
                     Instantiate(ToSpawn, this.gameObject.transform);
+                }
+                break;
+            case "Regret":
+                Regret regret = gameObject.GetComponent<Regret>();
+                regret.Highspeed = Highspeeds[Newstate];
+                Debug.Log(Lowspeeds[Newstate]);
+                regret.lowspeed = Lowspeeds[Newstate];
+                regret.UpdateCurrSpeed();
+                break;
+            case "Bull":
+                if (Newstate == 2)
+                {
+                    GameObject.Destroy(this.gameObject);
                 }
                 break;
         }

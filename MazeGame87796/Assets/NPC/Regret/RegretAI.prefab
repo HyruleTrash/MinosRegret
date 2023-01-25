@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2294092453483051029}
   - component: {fileID: 2294092453483051026}
   - component: {fileID: 2294092453483051027}
+  - component: {fileID: 7936879326864168290}
   m_Layer: 0
   m_Name: RegretAI
   m_TagString: Untagged
@@ -50,7 +51,7 @@ NavMeshAgent:
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -73,10 +74,59 @@ MonoBehaviour:
   Layer:
     serializedVersion: 2
     m_Bits: 855
-  RaycastLookYOffset: 5
-  walkDisctance: 40
+  RaycastLookYOffset: 0
+  walkDisctance: 50
+  MinCloseValueRoamPos: 2
   HitDistace: 7
+  offsets:
+  - {x: 6.2, y: 13, z: 0}
+  - {x: 0, y: 13, z: 0}
+  - {x: -6.2, y: 13, z: 0}
+  Roaming: 0
+  FollowingPlayer: 0
+  StartTimeNewRoam: 1.5
   MaxTimeBetweenFrames: 2
+  Frames:
+  - {fileID: 2800000, guid: 908646dfaa1224062b4a94efa8045fcc, type: 3}
+  - {fileID: 2800000, guid: 351d65a1eb31f4451b34923df228b0c7, type: 3}
+  - {fileID: 2800000, guid: ca4f071a51c1f4566ac70d7078b10ca1, type: 3}
+  - {fileID: 2800000, guid: 73917bb835e374e8dbd63c477e0fb8f9, type: 3}
+  - {fileID: 2800000, guid: 4c9787f2b47bb4336a566848a0eb2d48, type: 3}
+  - {fileID: 2800000, guid: 34691516e033f4e16947916b76da7d3c, type: 3}
+  Highspeed: 10
+  lowspeed: 5
+--- !u!114 &7936879326864168290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2294092453483051028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af779669d73a0433ab78d092ae9d61ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Regret
+  MapObjects: []
+  Grass: []
+  Stone: []
+  Leaves: []
+  Lowspeeds:
+  - 0
+  - 0
+  - 5
+  - 7
+  - 9
+  Highspeeds:
+  - 0
+  - 0
+  - 10
+  - 12
+  - 15
+  DissapearAt: 2
+  ToSpawn: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &2294092455009893949
 GameObject:
   m_ObjectHideFlags: 0
