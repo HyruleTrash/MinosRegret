@@ -11,16 +11,30 @@ public class GameChanged : MonoBehaviour
     public Material[] Stone;
     public Material[] Leaves;
 
+    public float[] FoggDensities;
+    public Color[] FoggColors;
+
     public float[] Lowspeeds;
     public float[] Highspeeds;
+    public float Changespeed = 0.7f;
+    public float ChangespeedDensity = 1;
 
     public int DissapearAt = 2;
 
     public GameObject ToSpawn;
     public GameObject player;
 
+    public GameObject LeavesParticles;
+    public GameObject DustParticles;
+
+    float DensityTowardsFogg;
+    Color ColorTowardsFogg;
+
     private void Start()
     {
+        DensityTowardsFogg = RenderSettings.fogDensity;
+        ColorTowardsFogg = RenderSettings.fogColor;
+
         Collectable[] collectables = FindObjectsOfType<Collectable>();
         for (int i = 0; i < collectables.Length; i++)
         {
@@ -37,9 +51,31 @@ public class GameChanged : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        switch (Name)
+        {
+            case "Map":
+                RenderSettings.fogColor = Color.Lerp(RenderSettings.fogColor, ColorTowardsFogg, Time.deltaTime * Changespeed);
+                RenderSettings.fogDensity = Mathf.Lerp(RenderSettings.fogDensity, DensityTowardsFogg, Time.deltaTime * ChangespeedDensity);
+                RenderSettings.fog = true;
+                break;
+        }
+    }
+
     public void StateUpdate(int Newstate)
     {
         switch (Name){
+            case "Player":
+                if (Newstate == 2)
+                {
+                    LeavesParticles.GetComponent<ParticleSystem>().Stop();
+                }
+                else if (Newstate == 3)
+                {
+                    DustParticles.GetComponent<ParticleSystem>().Play();
+                }
+                break;
             case "Bushes":
                 foreach (Transform Child in transform)
                 {
@@ -66,6 +102,12 @@ public class GameChanged : MonoBehaviour
                         materials[1] = Stone[Newstate];
                     }
                     renderer.materials = materials;
+
+                    if (FoggColors.Length > Newstate)
+                    {
+                        ColorTowardsFogg = FoggColors[Newstate];
+                        DensityTowardsFogg = FoggDensities[Newstate];
+                    }
                 }
                 break;
             case "RegretSpawner":

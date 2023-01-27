@@ -32,6 +32,11 @@ public class Regret : MonoBehaviour
     public Texture[] Frames;
     bool changingFrames = false;
 
+    bool Caught = false;
+    float caughtTime = 0;
+    public float caughtTimeMax = 2;
+    public AudioSource[] Sounds;
+
     public float Highspeed = 10;
     public float lowspeed = 5;
 
@@ -87,7 +92,7 @@ public class Regret : MonoBehaviour
 
     void Update()
     {
-        if (RoamTimerPlaying = true)
+        if (RoamTimerPlaying == true)
         {
             TimeUntilNewRoam += Time.deltaTime;
             if (TimeUntilNewRoam > StartTimeNewRoam)
@@ -108,16 +113,35 @@ public class Regret : MonoBehaviour
             }
         }
 
+        if (Caught == true)
+        {
+            caughtTime += Time.deltaTime;
+            if (caughtTime > caughtTimeMax)
+            {
+                AppHelper.Quit();
+            }
+        }
+
         Vector3 PlayerNoY = new Vector3(player.transform.position.x, 0, player.transform.position.z);
         transform.LookAt(PlayerNoY);
-        
+        transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+
         if (Vector3.Distance(transform.position, player.transform.position) < HitDistace)
         {
-            AppHelper.Quit();
+            if (Sounds[0].isPlaying == false)
+            {
+                Sounds[0].Play();
+            }
+            player.GetComponent<Player>().enabled = false;
+            Caught = true;
         }
 
         if (FollowingPlayer)
         {
+            if (Sounds[1].isPlaying == false)
+            {
+                Sounds[1].Play();
+            }
             if (agent.speed != Highspeed)
             {
                 agent.speed = Highspeed;
@@ -126,6 +150,10 @@ public class Regret : MonoBehaviour
         }
         else
         {
+            if (Sounds[2].isPlaying == false)
+            {
+                Sounds[2].Play();
+            }
             Vector2 NoYRegretPos = new Vector2(transform.position.x, transform.position.z);
             //Debug.Log(NewPosRoam != null);
             if (Vector3.Distance(NoYRegretPos, new Vector2(NewPosRoam.x, NewPosRoam.z)) < MinCloseValueRoamPos)
@@ -168,6 +196,7 @@ public class Regret : MonoBehaviour
                 else
                 {
                     Rayhits[i] = false;
+                    Debug.Log(hit.transform.name);
                 }
             }
         }
@@ -183,7 +212,7 @@ public class Regret : MonoBehaviour
         {
             if (RoamTimerPlaying == false)
             {
-                NewPosRoam = NewRoamPos();
+                NewPosRoam = PlayerNoY;
                 RoamTimerPlaying = true;
                 TimeUntilNewRoam = 0;
             }
